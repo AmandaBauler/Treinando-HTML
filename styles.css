@@ -31,3 +31,47 @@ main {
 
     margin-top: 32px;
 }
+
+section { 
+    color: white;
+
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2A263A;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 10px;    
+}
+
+section h2 {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -o.18px;
+    color: #A1A1AA;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-top: 25px;
+}
+
+.games-list img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.channel-list img {
+    border-radius: 50%;
+    width: 70px;
+}
